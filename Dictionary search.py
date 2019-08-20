@@ -1,0 +1,10 @@
+# Write a program to access the meaning of the words in the dictionary.
+
+# Use i/p for typing the key and get value as o/p.
+d1 = {"Mutable": " 'liable to change.' \n 'Example: the mutable nature of fashion'",
+      "Immutable": "'unchanging over time or unable to be changed.' \n 'Example: an immutable fact'",
+      "Tuple": "a data structure consisting of multiple parts.",
+      "Lists": "a number of connected items or names written or printed consecutively, typically one below the other."}
+print(" Type the word: ")
+inp_1 = d1[input()]
+print("Meaning",":", inp_1)
