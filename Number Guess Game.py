@@ -8,12 +8,12 @@ j = 5
 while (i < 5):
     inp = int(input("Enter the number: \n"))
     if inp < secret_num :
-        print("Try a bigger number.\n")
+        print("Try a big number.\n")
         i += 1
         print("Still", j-i, "chances remaining.")
     elif inp > secret_num:
         i += 1
-        print("Try a smaller number.\n")
+        print("Try a small number.\n")
         print("Still", j- i, "chances remaining.")
     elif inp == secret_num:
         print("BINGO. You won !")
